@@ -17,6 +17,4 @@ if [[ $state == '1' && $input == "y" ]]; then
 	xinput --disable "$device"
 elif [[ $state == '0' && $input == "y" ]]; then
 	xinput --enable "$device"
-else
-	exit
 fi
